@@ -1,0 +1,60 @@
+.edu {
+  width: 750px;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.edu .text {
+  height: 100%;
+  width: 68%;
+}
+
+.edu .pic {
+  position: relative;
+  right: 0;
+  width: 30%;
+  margin-top: auto;
+  background-size: 100% 100%;
+  height: 120px;
+  border-radius: 10px;
+  background-image: url(NEMK.jpg);
+}
+
+.edu .pic img {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.edu .text, .edu .pic { /*для вертикального вирівнювання*/
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.click {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  background-image: linear-gradient(#fe1980, #ca5683,#740025);
+  border-radius: 0 0 10px 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.click a {
+  color: #cacaca;
+  text-decoration: none;
+  height: 20px;
+  width: 100%;
+  display: block;
+  line-height: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.click a:hover {
+  text-decoration: underline;
+  background-color: #3081ea;
+}

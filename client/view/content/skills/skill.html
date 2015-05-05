@@ -1,0 +1,42 @@
+<template name="Skills">
+  <h4>Навички</h4>
+  <div class="skills">
+    {{> SkillsTable}}
+  </div>
+</template>
+
+
+<template name="SkillsTable">
+  <table>
+
+    <tr>
+    {{#each skills}}
+      <td>{{this}}</td>
+      {{/each}}
+    </tr>
+
+    <tr>
+      <td>
+        <img src="c++.png">
+        <img src="c#.jpg">
+        <img src="js.png">
+      </td>
+
+      <td>
+        <img src="qt.jpg">
+        <img src=".net.png">
+        <img src="meteor.png">
+      </td>
+
+      <td>
+        <img src="windows.png">
+        <img src="linux.jpg">
+      </td>
+
+      <td>
+        <img src="english.jpg">
+      </td>
+    </tr>
+
+  </table>
+</template>

@@ -1,0 +1,58 @@
+.nav {
+  height: 50px;
+  font-size: 25px;
+  background-image: linear-gradient(#4d4d4d, #090909,#090909,#4d4d4d);
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-right {
+  position: absolute;
+  right: 0;
+  height: 50px;
+}
+
+.nav-left {
+  position: absolute;
+  left: 0;
+  padding: 0;
+}
+
+.nav-radius {
+  border-radius: 5px;
+}
+
+.nav ul {
+  font-size:0;
+  line-height:0;
+}
+
+.nav li {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 0;
+  line-height:normal;
+}
+
+.nav a:hover{
+  background-color: #91123d;
+  text-decoration: none;
+}
+
+.nav a:visited{
+  text-decoration: none;
+}
+
+.nav a {
+  text-transform: uppercase;
+  color: #cacaca;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 18px 15px;
+  //line-height: 50px;
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+}

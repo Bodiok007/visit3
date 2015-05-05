@@ -1,0 +1,19 @@
+.skills table td{
+  padding: 4px;
+  text-align: center;
+}
+
+.skills table {
+  margin: auto;
+}
+
+.skills hr {
+  width: 5px;
+  height: 100%;
+}
+
+.skills img {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+}

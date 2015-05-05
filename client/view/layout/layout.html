@@ -1,0 +1,12 @@
+<template name="Layout">
+
+  <div class="wrap">
+    {{> yield region="nav"}}
+    <div class="content">
+      {{> yield}}
+    </div>
+  </div>
+
+  {{> yield region="footer"}}
+
+</template>

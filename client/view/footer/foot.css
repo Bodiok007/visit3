@@ -1,0 +1,15 @@
+footer {
+  margin-top: 15px;
+  background-color: #090909;
+  height: 50px;
+  min-width: 1170px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.foot {
+  width: 1170px;
+  margin: auto;
+  color: #cacaca;
+  line-height: 50px;
+  text-align: center;
+}
